@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 12px 0;
+}
+
+/*** Home1 ***/
+
+.home1{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0.8;
+  /* text-shadow: 1px 3px 2px yellow; */
+}
+.bgvideo{
+  width: 100%;
+  height: 100%;
+  background:url("https://nowdigitalsignage.com/wp-content/uploads/2023/08/LED.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1.0;
+}
+.home11{
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 10%;
+  color: black;
+  font-size: 12%;
+}
+
+.btn12{
+  color: black;
+  margin: 50px 150px 50px 130px;
+  font-weight: bold;
+}
+
+
+
+/***Home2***/
+
+
+.home21{
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  padding: 5%;
+}
+
+
+
+/***Home3***/
+
+
+.Img{
+  width: 100%;
+  box-shadow: 10px 5px 5px red;
+}
+
+.row{
+  justify-content: baseline;
+}
+
+.col-image{
+  align-self: center;
+}
+
+
+
+
+/***Home4***/
+
+.home4-Ext{
+  width: 100%;
+  background-image: url("https://www.xtreme-media.com/wp-content/uploads/2022/03/Adani-Audi-1920-720.jpg.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 100px 0;
+}
+
+.home4-vt{
+  justify-content: baseline;
+  padding: 80px 100px;
+}
+
+.Home4-Video{
+  width: 100%;
+  height: 100%;
+}
+
+.home4-txt{
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/***Services***/
+
+.Services-Crousel{
+  width: 100%;
+  height: 50%;
+  background-color: aquamarine;
+}
+.service-img{
+  width: 100%;
+  height: 500px;
+}
+
+.Serices2-box{
+  width: 100%;
+  text-align: center;
+  height: 100%; 
+  padding: 50px; 
+  background-color: aliceblue;
+}
+
+
+.Services22-img{
+  width: 100%;
+  padding: 50px;
+}
+
+.services3{
+  background-color: #FFE4F4C2;
+  padding: 20px;
+}
+
+.services3-box1{
+  text-align: center;
+}
+.services3-box2 img{
+  width: 100%;
+}
+.service-txt{
+  padding: 50px;
+}
+
+
+
+
+
+/***About US***/
+
+.about-heading{
+  width: 100%;
+  height: 30vh;
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 80px 0;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(228,255,37,1) 0%, rgba(252,128,70,1) 100%);
+}
+
+.about-txt{
+  margin: 80px 0;
+  text-align: center;
+}
+
+
+.about-founder{
+  width: 100%;
+  height: 70%;
+  /* border: 2px solid red; */
+  text-align: center;
+  background: rgb(197,95,99);
+  background: linear-gradient(0deg, rgba(197,95,99,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+
+.about-founder-img{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 70px;
+}
+
+
+
+
+/***Footer***/
+
+.footer-container{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+/***Animation***/
+
+img:hover{
+  box-shadow: 3px 6px 4px rgb(243, 132, 52);
+}
+.col-12:hover{
+  font-style: italic;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/* .row:hover .col-12{
+  animation: animate-from-bottom 1s ease-in-out;
+}
+
+@keyframes animate-from-bottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+
